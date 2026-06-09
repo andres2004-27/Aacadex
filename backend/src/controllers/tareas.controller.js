@@ -1,9 +1,9 @@
 import { tareas } from "../data/tareas.data.js";
-import { tareasPage } from "../views/pages/tareas.page.js";
-import { detalleTareaPage } from "../views/pages/detalleTarea.page.js";
-import { nuevaTareaPage } from "../views/pages/nuevaTarea.page.js";
-import { editarTareaPage } from "../views/pages/editarTarea.page.js";
-import { error404Page } from "../views/pages/error404.page.js";
+import { tareasPage } from "../src/views/pages/tareas.page.js";
+import { detalleTareaPage } from "../src/views/pages/detalleTarea.page.js";
+import { nuevaTareaPage } from "../src/views/pages/nuevaTarea.page.js";
+import { editarTareaPage } from "../src/views/pages/editarTarea.page.js";
+import { error404Page } from "../src/views/pages/error404.page.js";
 export function listarTareas(req, res) {
   const estado = req.query.estado;
   if (estado) {
